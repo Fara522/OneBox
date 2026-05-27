@@ -13,7 +13,6 @@ async def create_pool():
         password=os.getenv("MYSQLPASSWORD"),
         db=os.getenv("MYSQLDATABASE"),
     )
-
 # import os
 # from dotenv import load_dotenv
 
